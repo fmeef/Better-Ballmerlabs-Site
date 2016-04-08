@@ -1,2 +1,2 @@
-# Better-Ballmerlabs-Site
-A website that does not look horrid this time. 
+## Ballmerlabs Main Site
+Future website for Ballmerlabs clearnet site and ICARUSnet site in Hyperboria.
