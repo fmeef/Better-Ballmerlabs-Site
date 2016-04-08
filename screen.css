@@ -55,20 +55,20 @@ table {
 
 
 
-.maincol-container {
+.boxlist {
 
     padding: 1em;
     margin:  auto;
 }
 
 
-.title-container {
+#maintitle-container {
     padding: 0;
     margin: 0;
 
 }
 
-.logo1 {
+#logo1 {
 
     display: block;
     max-width: 100%;
@@ -118,7 +118,7 @@ ul {
     }
     
     
-    .maincol-container {
+    .boxlist {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -128,14 +128,14 @@ ul {
 	margin:  auto;
     }
     
-    .maincol-item {
+    .boxlist-box {
 	border: 1px solid grey;
 	max-width: auto;
 	margin: 0.5em;
     }
     
     
-    .title-container {
+    #maintitle-container {
 	display: flex;
 	flex-direction: row-reverse;
 	padding: 0;
@@ -147,7 +147,7 @@ ul {
 	color: black;
     }
     
-    .logo1 {
+    #logo1 {
 	
 	
 	
