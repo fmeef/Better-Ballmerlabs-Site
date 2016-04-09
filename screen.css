@@ -129,9 +129,10 @@ ul {
     }
     
     .boxlist-box {
-	border: 1px solid grey;
+	border: 5px solid blue;
 	max-width: auto;
 	margin: 0.5em;
+	background-color: Aquamarine;
     }
     
     
