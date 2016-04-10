@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom site styles */
+/* 
+  Using 1.25 Modular Scale: 
+*/
+
+
+
+
+.boxlist {
+
+    padding: 1em;
+    margin:  auto;
+}
+
+
+#maintitle-container {
+    padding: 0;
+    margin: 0;
+
+}
+
+#logo1 {
+
+    display: block;
+    max-width: 100%;
+    padding-bottom: 1.56250000000000000000  /* 28.125/18 */
+
+}
+
+body {
+  font-size: 1.125em; /* 18px/16px = 1.125 */
+  line-height: 1.4400000000000002em; /* 25.92px / 18px */
+  padding-top: 1.4400000000000002em; /* 25.92px / 18px */
+  padding-left: 1.200em; /* 5:6 ratio on baseline */
+  padding-right: 0.600em; /* half the 5:6 ratio */
+  text-size-adjust: 100%;
+  background: LightSkyBlue;
+  color: black;
+}
+
+h2 {
+  font-size: 1.758em; /* 28.125px / 18px */
+  line-height: 1.80844907407407407407em; /* 28.125 * 2 / 31.104 */
+  padding-top: .5em; /* 28.125 / 31.104 */
+  padding-bottom: .4em; /* 28.125 * 2 / 31.104 */
+}
+
+ul {
+    list-style-image: url(img/prompt.png);
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 0.3em;
+    
+}
+
+
+@media screen and (min-width: 33.33333333333333333333em) {
+
+
+    body {
+	font-size: 1.125em; /* 18px/16px = 1.125 */
+	line-height: 1.4400000000000002em; /* 25.92px / 18px */
+	padding-top: 1.4400000000000002em; /* 25.92px / 18px */
+	padding-left: 1.200em; /* 5:6 ratio on baseline */
+	padding-right: 0.600em; /* half the 5:6 ratio */
+	text-size-adjust: 100%;
+	background: LightSkyBlue;
+	color: black;
+    }
+    
+    
+    .boxlist {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-flow: row wrap;
+	allign-content: stretch;
+	padding: auto;
+	margin:  auto;
+	margin-right: 10em;
+	
+    }
+    
+    .boxlist-box {
+	border: 5px solid CornflowerBlue;
+	max-width: auto;
+	margin: 0.5em;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background-color: Aquamarine;
+	padding: 10px;
+    }
+    
+    
+    #maintitle-container {
+	display:block;
+    }
+
+    .titletext {
+	max-width: 74%;
+	margin-left: 30px;
+    }
+
+    h1 {
+	background-color: Aquamarine;
+	color: black;
+    }
+    
+    #logo1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+    }
+    #logoimg {
+	height: 7em;
+	}
+
+    .sidebar {
+	position: absolute;
+	top: 9em;
+	bottom: 0;
+	right: 0;
+	float: right;
+	height: 100%;
+	max-width: 10em;
+	background-color: CornflowerBlue;
+    }
+
+    .title {
+	background-color: CornflowerBlue;
+	max-width: 74%;
+	-webkit-border-radius: 0px 0px 30px 30px;
+	-moz-border-radius: 0px 0px 30px 30px;
+	border-radius: 0px 0px 30px 30px;
+    }
+    
+    
+
+}
+
+
+
+
+
+

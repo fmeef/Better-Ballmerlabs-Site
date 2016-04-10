@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ballmer Labs</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" href="screen.css" \>
+  </head>
+  <body>
+
+
+    <div class="title" id="maintitle-container">
+      <figure id="logo1" role="img" aria-labelledby="ICARUS-logo">
+	<img id="logoimg" src="img/ICARUS_sm.png" alt="Icarus Logo" />
+      </figure>
+      <h1>ICARUS main site</h1>
+      <div class="titletext">
+      <h2>ICARUS Network Status</h2>
+      <p>
+	ICARUS is a large(ish) computer network with no real purpose yet. Current capabilities include MPI parallel jobs,
+	a really bad internet telescope, and an owncloud based drop-in google replacement. 
+      </p>
+      </div>
+    </div>
+
+<div id="columnone">
+  <div class="sidebar">
+    <h2>Navigation </h2>
+    <ul>
+      <hr>
+      <li><a href="icarus">ICARUS Description and status</a></li>
+      <hr>
+      <li><a href="about">About me</a></li>
+      <hr>
+      <li><a href="pub">Public fileserver</a></li>
+      <hr>
+    </ul>
+
+  </div>
+    <p>
+      <div id="maincol-container" class="boxlist"> 
+	<div id="maincol-item1" class="boxlist-box">
+	  <h2>Nausicaa</h2>
+	  <h3>Head fileserver / compute node</h3>
+	</div>
+	<div id="maincol-item2" class="boxlist-box">
+	  <h2>Jiro</h2>
+	  <h3>Web/cloud server. Backup compute node</h3>
+	</div>
+
+	<div id="maincol-item2" class="boxlist-box">
+	  <h2>Haku</h2>
+	  <h3>GPU compute node and offsite backup system</h3>
+	</div>
+	<div id="maincol-item3" class="boxlist-box">
+	  <h2>Asbel</h2>
+	  <h3>Expendable server for public use</h3>
+	</div>
+      </div>
+    </p>
+    </div>
+    <script src="modernizr.js"></script>
+  </body>
+</html>
+
