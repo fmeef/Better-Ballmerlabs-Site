@@ -134,6 +134,9 @@ ul {
 	border: 5px solid blue;
 	max-width: auto;
 	margin: 0.5em;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
 	background-color: Aquamarine;
     }
     
