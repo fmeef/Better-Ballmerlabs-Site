@@ -1,4 +1,8 @@
 
 #mira {
     float: right;
+    align: top;
+    width: 10em;
+    height: auto;
+    margin: 10px;
 }
