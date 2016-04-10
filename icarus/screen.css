@@ -55,20 +55,20 @@ table {
 
 
 
-.maincol-container {
+.boxlist {
 
     padding: 1em;
     margin:  auto;
 }
 
 
-.title-container {
+#maintitle-container {
     padding: 0;
     margin: 0;
 
 }
 
-.logo1 {
+#logo1 {
 
     display: block;
     max-width: 100%;
@@ -118,7 +118,7 @@ ul {
     }
     
     
-    .maincol-container {
+    .boxlist {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -126,20 +126,28 @@ ul {
 	allign-content: stretch;
 	padding: auto;
 	margin:  auto;
+	margin-right: 10em;
+	
     }
     
-    .maincol-item {
-	border: 1px solid grey;
+    .boxlist-box {
+	border: 5px solid blue;
 	max-width: auto;
 	margin: 0.5em;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background-color: Aquamarine;
     }
     
     
-    .title-container {
-	display: flex;
-	flex-direction: row-reverse;
-	padding: 0;
-	margin: 0;
+    #maintitle-container {
+	display:block;
+    }
+
+    .titletext {
+	max-width: 74%;
+	margin-left: 30px;
     }
 
     h1 {
@@ -147,11 +155,34 @@ ul {
 	color: black;
     }
     
-    .logo1 {
-	
-	
-	
+    #logo1 {
+	position: absolute;
+	top: 0;
+	right: 0;
     }
+    #logoimg {
+	height: 7em;
+	}
+
+    .sidebar {
+	position: absolute;
+	top: 9em;
+	bottom: 0;
+	right: 0;
+	float: right;
+	height: 100%;
+	max-width: 10em;
+	background-color: CornflowerBlue;
+    }
+
+    .title {
+	background-color: CornflowerBlue;
+	max-width: 74%;
+	-webkit-border-radius: 0px 0px 30px 30px;
+	-moz-border-radius: 0px 0px 30px 30px;
+	border-radius: 0px 0px 30px 30px;
+    }
+    
     
 
 }
