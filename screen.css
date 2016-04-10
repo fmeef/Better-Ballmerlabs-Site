@@ -147,6 +147,7 @@ ul {
 
     .titletext {
 	max-width: 74%;
+	margin-left: 30px;
     }
 
     h1 {
@@ -174,6 +175,15 @@ ul {
 	max-width: 10em;
 	background-color: Aquamarine;
     }
+
+    .title {
+	background-color: CornflowerBlue;
+	max-width: 74%;
+	-webkit-border-radius: 0px 0px 30px 30px;
+	-moz-border-radius: 0px 0px 30px 30px;
+	border-radius: 0px 0px 30px 30px;
+    }
+    
     
 
 }
