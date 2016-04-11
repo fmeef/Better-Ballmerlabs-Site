@@ -66,14 +66,25 @@ table {
     padding: 0;
     margin: 0;
 
+    text-align: center;
+
 }
+
 
 #logo1 {
 
     display: block;
     max-width: 100%;
     padding-bottom: 1.56250000000000000000  /* 28.125/18 */
+}
 
+#logoimg {
+
+    display: block;
+    max-width: 100%;
+    padding-bottom: 1.56250000000000000000  /* 28.125/18 */
+    text-align: center;
+    margin: auto auto;
 }
 
 body {
@@ -116,11 +127,12 @@ ul {
 	-webkit-border-radius: 0px 0px 30px 30px;
 	-moz-border-radius: 0px 0px 30px 30px;
 	border-radius: 0px 0px 30px 30px;
+	align-items: center;
     }
 
 
     .titletext {
-	margin-left: 30px;
+
     }
     h1 {
 	background-color: Aquamarine;
@@ -188,6 +200,8 @@ ul {
     }
     #logoimg {
 	height: 7em;
+	top: 0;
+	right: 0;
 	}
 
     .sidebar {
