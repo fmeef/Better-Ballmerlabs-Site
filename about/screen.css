@@ -186,6 +186,7 @@ ul {
     
     #maintitle-container {
 	display:block;
+	text-align: left;
     }
 
     .titletext {
@@ -226,6 +227,7 @@ ul {
 	-webkit-border-radius: 0px 0px 30px 30px;
 	-moz-border-radius: 0px 0px 30px 30px;
 	border-radius: 0px 0px 30px 30px;
+	align-items: left;
     }
     
     
