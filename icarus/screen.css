@@ -78,6 +78,11 @@ table {
     padding-bottom: 1.56250000000000000000  /* 28.125/18 */
 }
 
+i {
+
+    font-style: italic;
+}
+
 #logoimg {
 
     display: block;
